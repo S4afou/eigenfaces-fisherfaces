@@ -1,9 +1,9 @@
 # Eigenfaces and Fisherfaces: face recognition with PCA and LDA
 
-Classical face recognition on the Olivetti Faces dataset. The notebook builds Eigenfaces
-from scratch, sweeps the number of principal components, compares 1-NN against a linear
-SVM, tests robustness to Gaussian noise, cross-validates the headline number, and then
-compares the result against Fisherfaces (PCA followed by LDA).
+I built this as a classical face-recognition study on the Olivetti Faces dataset. The
+notebook builds Eigenfaces from scratch, sweeps the number of principal components,
+compares 1-NN against a linear SVM, tests robustness to Gaussian noise, cross-validates the
+headline number, and then compares the result against Fisherfaces (PCA followed by LDA).
 
 | Result | Value | Context |
 | --- | --- | --- |
@@ -68,9 +68,9 @@ assets/                                  the seven figures used below
 data/README.md                           dataset source
 ```
 
-Commit dates reflect when the work was done. The history was reconstructed from the
-notebook, the figures and the report, because the project was written in a notebook and
-never tracked in git.
+Commit dates reflect when the work was done. I reconstructed the history from the notebook,
+the figures and the report, because the project was written in a notebook and never tracked
+in git.
 
 ## Running it
 
@@ -86,14 +86,14 @@ laptop); everything else finishes in seconds.
 
 ## Team and context
 
-Course project for the Applied Machine Learning module (ESI-SBA, 2025/2026). The report
-lists four students: Medjahri Mohammed Safouane, Benterki Abdel Ouakil, Aini Ines and
+This was a course project for the Applied Machine Learning module (ESI-SBA, 2025/2026). We
+were a team of four: Medjahri Mohammed Safouane, Benterki Abdel Ouakil, Aini Ines and
 Benayed Mohammed Amjed.
 
 I owned the classification and evaluation work: the PCA component sweep, the 1-NN and
 linear-SVM comparison, the confusion matrix, the raw-pixel baseline, the noise tests and
 the cross-validation. The Fisherfaces implementation and its 99.0% result are a teammate's;
-they are included here because they are the strongest comparison in the project.
+I include them here because they are the strongest comparison in the project.
 
 ## References
 
@@ -102,3 +102,6 @@ they are included here because they are the strongest comparison in the project.
 - P. N. Belhumeur, J. P. Hespanha and D. J. Kriegman (1997), "Eigenfaces vs. Fisherfaces:
   Recognition Using Class Specific Linear Projection", IEEE TPAMI.
 - Olivetti Faces, AT&T Laboratories Cambridge, distributed through scikit-learn.
+
+More about this project on my portfolio:
+https://safouane-medjahri.vercel.app/projects/eigenfaces-fisherfaces
