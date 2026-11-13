@@ -87,8 +87,7 @@ laptop); everything else finishes in seconds.
 ## Team and context
 
 This was a course project for the Applied Machine Learning module (ESI-SBA, 2025/2026). We
-were a team of four: Medjahri Mohammed Safouane, Benterki Abdel Ouakil, Aini Ines and
-Benayed Mohammed Amjed.
+were a team of four.
 
 I owned the classification and evaluation work: the PCA component sweep, the 1-NN and
 linear-SVM comparison, the confusion matrix, the raw-pixel baseline, the noise tests and
